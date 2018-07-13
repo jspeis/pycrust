@@ -8,4 +8,4 @@ clean:
 	rm Cargo.lock
 
 test:
-	PYTHONPATH=target/release ipython -c"import hello;hello.run_me({'this_is_a_key': 12345});"
+	PYTHONPATH=target/release python -c"import hello;hello.run_me({'this_is_a_key': 12345});"
