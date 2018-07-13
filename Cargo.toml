@@ -1,9 +1,9 @@
 [package]
-name = "rust2py"
+name = "pycrust"
 version = "0.1.0"
 
 [lib]
-name = "hello"
+name = "pycrust"
 crate-type = ["cdylib"]
 
 [dependencies.pyo3]
